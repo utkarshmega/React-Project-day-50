@@ -7,6 +7,28 @@
   pointer-events: none;
 }
 
+h1 {
+  text-align: center;
+  font-size: xx-large;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+}
+
+input {
+  margin-left: 40%;
+}
+
+.error-output {
+  margin-left: 10px;
+  font-size: 20px;
+  font-style: italic;
+  color: red;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
